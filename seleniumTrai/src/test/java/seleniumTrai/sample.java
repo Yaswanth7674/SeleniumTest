@@ -11,8 +11,7 @@ public class sample {
 	driver.manage().window().maximize();
 	driver.get("https://www.google.com");
 	driver.findElement(By.id("APjFqb")).click();
-	driver.findElement(By.id("APjFqb")).sendKeys("Selenium");
-	driver.findElement(By.id("APjFqb")).sendKeys(Keys.ENTER);
+	
 	
 }
 }
